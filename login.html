@@ -1,0 +1,25 @@
+
+<form name="theForm" action="login.php?act=login" method="POST"
+    onsubmit="return validateForm();" >
+    User name: <input name="username" type="text" value="" size="20">
+<br>
+    Pasword: <input name="password" type="password" value="" size="20">
+<br>
+    <input type="submit" value="Submit">
+</form>
+
+
+<script language="JavaScript">
+/* You can put more javascript here */
+
+function    validateForm()
+{
+    var s = document.forms["theForm"]["username"].value;
+    var p = document.forms["theForm"]["password"].value;
+    if (s == "" || p == "") {
+        alert("Invalid user name and password combinations.");
+        return false;
+    }
+}
+
+</script>
