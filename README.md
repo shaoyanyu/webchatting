@@ -9,6 +9,7 @@ admin.php is for controlling the users.
 encrypt.php is the key function to encrypt or decrypt the messages
 index.php is for the signging in page.
 login.php is for signing in page and log in page.
+login.html is the html page to show the basic screen of login page.
 logout.php is for logging out page.
 user.php is for users to send and delete the messages they sent and reply for the meesages they received.
 
